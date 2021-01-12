@@ -1,0 +1,81 @@
+
+   
+ 
+
+	p{
+		font-size: 16px; 
+		font-family: Serif;
+		color:rgb(12, 15, 15);
+		text-indent: 50px;
+		letter-spacing: 1.5px;
+		line-height: 1.2;
+	}
+	a{
+		letter-spacing: 1.5px;
+		line-height: 1.2;
+	}
+
+	a:hover {
+	    background-color: gold;
+    	color: orangered;	
+	}
+	a:visited{
+	    background-color: gold;
+    	color: black;	
+	}
+	body{
+		max-width: 90%;
+		margin: 0 auto;
+		/* background-color: wheat;
+		background: linear-gradient(-120deg, #283023 0%, rgba(9,9,121,1) 35%, #1F364E 100%); */
+		background-image: url(https://cdn.pixabay.com/photo/2016/08/21/08/04/blue-1609122_1280.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: right bottom;
+	}
+	blockquote{
+		margin-left: 50%;
+		font-size: 160%;
+		background-color: whitesmoke;
+		border-left: 3px solid firebrick;
+		padding: 30px;
+		margin-top: 80px; margin-bottom: 80px;
+	}
+.italic{
+	font-style: italic;
+}
+.villagers{
+	border-left: 3px solid violet;
+}
+header p:last-child {
+	background-color: yellow;
+  }
+  .good{
+	  color: green;
+	  text-transform:capitalize;
+  }
+  .bad{
+	  color: red;
+	  text-transform:capitalize;
+  }
+  table{
+	  background-color:white;
+  }
+  table tr:nth-child(even){
+	background-color: grey;
+  }
+/* p:first-child{
+	font-weight: bold;
+} */
+  /* /* Italics the text of the quotations */
+/* dl dd:nth-child(1){
+	background-image:url(Assets/bien.png); 
+	padding-right: 50px;
+} */
+/* At the first item in the list (types of people), play with background-image and padding-right to make the image appear */
+/* Put the first paragraph in bold */
+img{
+	float:right;
+	margin-left: 10px;
+}
+   

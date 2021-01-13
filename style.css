@@ -64,16 +64,26 @@ header p:last-child {
   table tr:nth-child(even){
 	background-color: grey;
   }
-/* p:first-child{
+header:first-child{
 	font-weight: bold;
-} */
+}
   /* /* Italics the text of the quotations */
-/* dl dd:nth-child(1){
+dd:nth-child(2){
 	background-image:url(Assets/bien.png); 
-	padding-right: 50px;
-} */
-/* At the first item in the list (types of people), play with background-image and padding-right to make the image appear */
-/* Put the first paragraph in bold */
+	padding-right: 10px;
+	background-repeat: no-repeat;
+}
+dd:nth-child(3){
+	background-image:url(Assets/mal.png); 
+	padding-right: 10px;
+	background-repeat: no-repeat;
+}
+dd:nth-child(4){
+	background-image:url(Assets/chat.png); 
+	padding-right: 10px;
+	background-repeat: no-repeat;
+}
+
 img{
 	float:right;
 	margin-left: 10px;

@@ -1,66 +1,101 @@
 
 	body{
-		margin: auto;
-		margin-bottom: 60px;
 		font-weight: 400 !important;
 		font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 		font-size: 15px;
 		line-height: 1.4;
 		color: #222;
 		background-color: #fff;
-		margin: 0;
-		margin-bottom: 0px;
 		text-align: center;
 	}
-.wrapper {
-	width: 960px;
-	max-width: 93.75%;
-	margin: auto;
-	color: white;
-	padding-left: 15px;padding-right: 15px;
-	align-items: center;
-	display:inline-flex;
-}
-button{
-	box-sizing: border-box;
-	display: inline-block;
-	float: none;
-	padding: 10px;
-	position: static;
-	z-index: auto;
-	border-bottom-color: rgb(255, 255, 255);
-	border-radius: 9px;
-	border-style: solid;
-	border-width: 1.66667px;
-	border-image-outset: 0;
-	border-image-repeat: stretch;
-	border-image-slice: 100%;
-	cursor: pointer;
-	color: white;
-}
-img {
-	padding: 10px;
-	margin: 10px;
-  }
+	header{
+		background-color: black;
+		height: 59px;
+	}
+	nav{
+		font-size: 14px;
+		width: 960px;
+		display:inline-flex;
+		height: 59px; 
+	}
+	/* nav:last-child {
+		width: 100%;
+	} */
+	ul{
+		height: 41px;
+		list-style-type: none;
+		margin-top: 10px;
+		padding: 0px;
+		text-decoration: none;
+		width: 100% !important;
+	}
+	li{
+		color: white;
+		display:inline-flex;
+		padding: 10px;
+		float:left;
+	}
+	li a {
+		text-decoration: none;
+		color: white;
+	}
+	nav ul li:last-child{
+		float:right !important;
+		margin-right:20px;
+	}
+	ul img{
+		padding: 0px;
+		margin: 0px;
+	}
+	img {
+		padding: 10px;
+		margin: 10px;
+	}
+	.logo{
+		margin: -3px -10px 3px 0px;
+	}
+	.wrapper {
+		width: 960px;
+		max-width: 93.75%;
+		margin: auto;
+		color: white;
+		padding-left: 15px;padding-right: 15px;
+		align-items: center;
+		display:inline-flex;
+	}
+	.wrapper1 {
+		width: 960px;
+		max-width: 93.75%;
+		margin: auto;
+		color: white;
+		padding-left: 15px;padding-right: 15px;
+		align-items: left;
+		display:inline-flex;
+	}
+	.avatar{
+		padding-right: 5%;
+	}
+	.banner{
+		background-color: rgb(30, 147,204);
+		width: 100%;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		border-bottom: 0.833px;
+		color: white;
+	}
 .blue{
 	background-color: rgb(30, 147,204);
 	padding-top: 30px;
 	padding-bottom: 50px;
 	border-bottom: 0.833px;
 }
-.banner{
-	background-color: rgb(30, 147,204);
-	width: 100%;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	border-bottom: 0.833px;
-
+button{
+	padding: 10px;
+	border-bottom-color: rgb(255, 255, 255);
+	border-radius: 9px;
+	border-style: solid;
+	cursor: pointer;
 	color: white;
-}
-.mid{
-	position: relative;
-
-
 }
 .orange{
 	background-color: rgb(233, 144,2);
@@ -69,44 +104,57 @@ img {
 	background-color: rgb(22, 88,130);
 }
 .row{
-	margin: 20px -15px 10px -15px;
+	margin: 20px 0px 10px 0px;
 	padding: 0px 15px;
+	text-align: left;
 }
-.brands{
+.customersbrands{
 	width: 100%;
-	background-color: rgb(206, 202, 202);
-	justify-content: space-between;
+	background-color: rgb(238, 238, 238);
 	padding: 30px 0px;
-	display: inline-flex;
 }
-nav{
+.wrapperbrands{
 	width: 960px;
-	display:inline-flex;
-}
-ul{
-	list-style-type: none;
-	margin:0px;
-	padding: 0px;
-}
-li{
-	display:inline-flex;
-	padding: 10px;
-}
-li a {
+	max-width: 93.75%;
+	margin: auto;
 	color: white;
-	text-align: center;
-	text-decoration: none;
-  }
-.right{
-	text-align: right;
+	padding-left: 15px;padding-right: 15px;
+	align-items: center;
 }
-header{
+footer{
+	margin-top: 90px;
 	color: white;
 	background-color: black;
+	height: 59px;
+	vertical-align: middle;
 }
-.punchline{
-	text-align: center;
+footer ul li{
+	border
 }
-.logo{
+.buttons{
+	margin-top: 50px;
+}
+.buttons button{
+	width: 113.6px;
+}  
+.fborder { 
+	border-left: 1px dashed; 
+	border-color: grey;
+}
+.fixed{
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-color: rgb(22, 88,130);
+	border-radius: 50%;
+	cursor: pointer;
+	height: 40px;
+	width: 40px;
+	border: none;
+}
+button img{
+	padding: 0px;
+	margin: 0px;
+}
 
-}
+
